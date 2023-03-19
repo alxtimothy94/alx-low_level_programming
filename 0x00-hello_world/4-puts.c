@@ -1,10 +1,8 @@
-#include <stdio-h>
-/*
- * prints out a line
+#include<stdio.h>
+/**
+ * main - Entry point
  *
- * main - this the a main function
- *
- * Return: function always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
