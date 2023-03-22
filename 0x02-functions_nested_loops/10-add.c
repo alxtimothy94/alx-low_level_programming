@@ -1,0 +1,38 @@
+#include "main.h"
+/**
+*add - sums up two numbers
+*@n:first integer
+*@m:second integer
+*Return: returns 0
+*/
+int add(int n, int m)
+{
+return (n + m);
+}
+
+#include "main.h"
+#include <stdio.h>
+/**
+*print_to_98 - prints natural
+*numbers from n to 98
+*@n:integer to start by
+*return: returns nothing
+*/
+void print_to_98(int n)
+{
+if (n >= 98)
+{
+while (n > 98)
+printf("%d, ", n--);
+
+printf("%d\n", n);
+}
+else
+{
+while (n < 98)
+printf("%d, ", n++);
+
+printf("%d\n", n);
+}
+}
+
