@@ -1,9 +1,11 @@
 #include "main.h"
 
-/*
+/**
  * function returns a 0
- * main - function to start the code
+ * main - print _putchar
+ *
  */
+
 int main(void)
 {
 	_putchar('_');
